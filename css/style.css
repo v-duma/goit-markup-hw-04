@@ -178,7 +178,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+p {
   margin: 0;
 }
 
@@ -595,6 +596,10 @@ img {
   transform: translateY(0%);
 }
 
+.block-one-a:hover .img-decs,
+.block-one-a:focus .img-decs{
+  transform: translateY(0%);
+}
 .custom-link {
   width: 100%;
   height: 100%;
