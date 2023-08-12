@@ -322,6 +322,7 @@ h5 {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
+  margin-bottom: 16px;
   line-height: 1.5;
   color: var(--white, #FFF);
   letter-spacing: 0.02em;
@@ -362,6 +363,10 @@ h5 {
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .div-header {
@@ -493,6 +498,7 @@ img {
   display: flex;
   justify-content: center;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-sec-four-a-footer {
@@ -516,13 +522,15 @@ img {
 
 .icons-sec-four-a:hover,
 .icons-sec-four-a:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .icons-sec-four-svg {
   fill: var(--cloud, #F4F4FD);
 }
-
+.modal-close-svg{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .customers-list {
   display: flex;
   align-items: flex-start;
