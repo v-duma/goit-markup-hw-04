@@ -318,16 +318,6 @@ h5 {
   padding-left: 0;
 }
 
-.footer-p-social {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 16px;
-  line-height: 1.5;
-  color: var(--white, #FFF);
-  letter-spacing: 0.02em;
-}
-
 .section-buttons {
   background-color: var(---navyblue, #2e2f42);
 }
@@ -522,7 +512,7 @@ img {
 
 .icons-sec-four-a:hover,
 .icons-sec-four-a:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .icons-sec-four-svg {
@@ -602,6 +592,7 @@ img {
 .block-one-a:hover,
 .block-one-a:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 
 .custom-link {
@@ -677,4 +668,14 @@ img {
   color: var(--cloud, #F4F4FD);
   padding: 40px 32px;
   background: var(--iris, #4D5AE5);
+}
+
+.footer-p-social {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--white, #FFF);
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
